@@ -16,7 +16,7 @@ final class ConfigStore: ObservableObject {
         static let merchantId = "TESTMIDtesting00"
         static let apiBaseUrl = "https://mtf.gateway.mastercard.com"
         static let apiVersion = "100"
-        static let backendUrl = "http://localhost:3002"
+        static let backendUrl = "https://gjshop-configurable-backend.vercel.app"
     }
 
     @Published var merchantId: String

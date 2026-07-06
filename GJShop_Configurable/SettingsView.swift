@@ -193,7 +193,7 @@ struct SettingsView: View {
                 Text("Backend URL")
                     .font(.caption)
                     .foregroundColor(.secondary)
-                TextField("http://localhost:3002", text: $backendUrl)
+                TextField(ConfigStore.Defaults.backendUrl, text: $backendUrl)
                     .keyboardType(.URL)
                     .autocapitalization(.none)
                     .disableAutocorrection(true)
