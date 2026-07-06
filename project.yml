@@ -1,0 +1,36 @@
+name: GJShop_Configurable
+options:
+  bundleIdPrefix: com.gauravjoshi
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+targets:
+  GJShop_Configurable:
+    type: application
+    platform: iOS
+    sources:
+      - GJShop_Configurable
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.gauravjoshi.GJShop-Configurable
+        MARKETING_VERSION: "2.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+    info:
+      path: GJShop_Configurable/Info.plist
+      properties:
+        CFBundleDisplayName: GJShop Config
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        CFBundleURLTypes:
+          - CFBundleURLName: com.gauravjoshi.GJShop-Configurable
+            CFBundleURLSchemes:
+              - myapp
+        # Demo app: the local backend runs over plain http (localhost / LAN IP)
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
