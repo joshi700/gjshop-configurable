@@ -23,7 +23,7 @@ targets:
     info:
       path: GJShop_Configurable/Info.plist
       properties:
-        CFBundleDisplayName: GJShop Config
+        CFBundleDisplayName: GJShop
         UILaunchScreen: {}
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
