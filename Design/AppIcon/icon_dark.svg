@@ -1,0 +1,35 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D6AF8"/>
+      <stop offset="0.55" stop-color="#8582FF"/>
+      <stop offset="1" stop-color="#3B2FB8"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.28" cy="0.2" r="0.9">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="none"/>
+  <rect width="1024" height="1024" fill="none"/>
+  <!-- bag handle -->
+  <path d="M 412 430 v -76 a 100 100 0 0 1 200 0 v 76" fill="none" stroke="#FFFFFF" stroke-width="38" stroke-linecap="round"/>
+  <!-- bag body -->
+  <rect x="222" y="404" width="580" height="416" rx="84" fill="#FFFFFF"/>
+  <!-- sliders -->
+  <g stroke="#8582FF" stroke-width="30" stroke-linecap="round">
+    <line x1="330" y1="520" x2="694" y2="520"/>
+    <line x1="330" y1="612" x2="694" y2="612"/>
+    <line x1="330" y1="704" x2="694" y2="704"/>
+  </g>
+  <g fill="#8582FF">
+    <circle cx="610" cy="520" r="44"/>
+    <circle cx="410" cy="612" r="44"/>
+    <circle cx="545" cy="704" r="44"/>
+  </g>
+  <g fill="#FFFFFF">
+    <circle cx="610" cy="520" r="17"/>
+    <circle cx="410" cy="612" r="17"/>
+    <circle cx="545" cy="704" r="17"/>
+  </g>
+</svg>
